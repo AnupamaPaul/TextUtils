@@ -1,7 +1,6 @@
 const Alert = (props) => {
   const capitalise = (word) => {
-    let lower = word.toLowerCase();
-    return lower.charAt(0).toUpperCase() + lower.slice(1);
+    return word.toLowerCase().charAt(0).toUpperCase() + lower.slice(1);
   };
   return (
     props.alert && (
